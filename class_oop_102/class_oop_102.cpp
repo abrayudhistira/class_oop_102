@@ -16,4 +16,11 @@ private:
 	string kode;
 	string namaM;
 	int sks;
+public:							//akses modifier
+	void input() {
+		cout << "Masukkan kode Mata Kuliah : ";
+	}
+	void tampil() {
+
+	}
 };
