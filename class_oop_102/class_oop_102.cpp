@@ -17,8 +17,13 @@ private:
 	string namaM;
 	int sks;
 public:							//akses modifier
-	void input() {
+	void input() {								// metode
 		cout << "Masukkan kode Mata Kuliah : ";
+		cin >> kode;
+		cout << "Masukkan Nama Mata Kuliah : ";
+		cin >> namaM;
+		cout << "Jumlah SKS : ";
+		cin >> sks;
 	}
 	void tampil() {
 
