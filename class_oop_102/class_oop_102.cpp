@@ -32,3 +32,8 @@ public:							//akses modifier
 
 	}
 };
+int main()									// main program
+{
+	Mahasiswa mhs1;
+	Matakuliah mk;
+}
