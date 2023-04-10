@@ -8,5 +8,12 @@ public:						// akses modifier
 public: void cetak() {		//metode
 	cout << "NIM = " << nim;
 	cout << "\nNama = " << nama;
-}
+	}
+};
+
+class Matakuliah {				//class
+private:
+	string kode;
+	string namaM;
+	int sks;
 };
