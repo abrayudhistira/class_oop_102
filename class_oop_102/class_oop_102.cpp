@@ -12,7 +12,7 @@ public: void cetak() {		//metode
 };
 
 class Matakuliah {				//class
-private:
+private:						// akses modifier
 	string kode;
 	string namaM;
 	int sks;
