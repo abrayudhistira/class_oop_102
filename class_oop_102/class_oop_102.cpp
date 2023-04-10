@@ -18,7 +18,7 @@ private:						// akses modifier untuk object private
 	int sks;
 public:							//akses modifier untuk object public
 	void input() {								// metode dari akses modifier public
-		cout << "Masukkan kode Mata Kuliah : ";
+		cout << "\nMasukkan kode Mata Kuliah : ";
 		cin >> kode;
 		cout << "Masukkan Nama Mata Kuliah : ";
 		cin >> namaM;
@@ -26,9 +26,9 @@ public:							//akses modifier untuk object public
 		cin >> sks;
 	}
 	void tampil() {								// metode dari akses modifer public
-		cout << "Kode Mata Kuliah : " << kode;
-		cout << "Nama Mata Kuliah : " << namaM;
-		cout << "SKS : " << sks;
+		cout << "\nKode Mata Kuliah : " << kode;
+		cout << "\nNama Mata Kuliah : " << namaM;
+		cout << "\nSKS : " << sks;
 
 	}
 };
