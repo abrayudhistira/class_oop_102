@@ -37,11 +37,12 @@ int main()									// main program
 	Mahasiswa mhs1;
 	Matakuliah mk;
 
-	cout << "Masukkan NIM : ";				// memanggil metode
+	cout << "Masukkan NIM : ";				// memanggil metode mhs1
 	cin >> mhs1.nim;
 	cout << "Masukkan Nama : ";
 	cin >> mhs1.nama;
 	mhs1.cetak();
 
-
+	mk.input();								// memanggil metode mk
+	mk.tampil();
 }
