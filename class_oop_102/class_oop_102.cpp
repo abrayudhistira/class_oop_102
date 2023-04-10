@@ -25,7 +25,10 @@ public:							//akses modifier
 		cout << "Jumlah SKS : ";
 		cin >> sks;
 	}
-	void tampil() {
+	void tampil() {								// metode
+		cout << "Kode Mata Kuliah : " << kode;
+		cout << "Nama Mata Kuliah : " << namaM;
+		cout << "SKS : " << sks;
 
 	}
 };
